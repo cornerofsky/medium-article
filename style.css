@@ -1,0 +1,66 @@
+/*font-family: 'Lora', ;
+font-family: 'Montserrat', ;*/
+.banner {
+  background-image: url(https://source.unsplash.com/random);
+  color: white;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.banner p {
+  font-style: italic;
+  font-size: 30px;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1,h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 25px;
+  color: gray;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Lora';
+  font-size: 20px;
+
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
